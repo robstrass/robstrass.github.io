@@ -3099,6 +3099,10 @@ input, select, textarea {
 		object-position: 50% 0%;
 	}
 
+	li > i {
+		font-size: 5.5rem;
+	}
+
 	body.is-preload #header .inner {
 		-moz-transform: scale(1.05);
 		-webkit-transform: scale(1.05);
