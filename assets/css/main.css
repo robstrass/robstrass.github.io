@@ -3086,6 +3086,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
+	.topImg {
+		border-radius: 50%;
+		object-fit: cover;
+		height: 10rem;
+		width: auto;
+	}
+
 	body.is-preload #header .inner {
 		-moz-transform: scale(1.05);
 		-webkit-transform: scale(1.05);
