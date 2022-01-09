@@ -3086,11 +3086,17 @@ input, select, textarea {
 			width: 100%;
 		}
 
+	.headerContainer {
+		position: relative;
+	}
+
 	.topImg {
+		position: relative;
+		height: 10rem;
+		width: 10rem;
 		border-radius: 50%;
 		object-fit: cover;
-		height: 10rem;
-		width: auto;
+		object-position: 50% 0%;
 	}
 
 	body.is-preload #header .inner {
